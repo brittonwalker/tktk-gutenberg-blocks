@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "tktk-blocks/example",
+	"version": "0.1.0",
+	"title": "TKTK Example",
+	"category": "tktk-blocks",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Hello world!"
+		}
+	},
+	"supports": {
+		"html": false,
+		"color": {
+			"background": true,
+			"text": false
+		}
+	},
+	"textdomain": "tktk-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

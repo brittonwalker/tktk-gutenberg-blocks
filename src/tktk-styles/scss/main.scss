@@ -1,0 +1,18 @@
+/**
+ * The following styles get applied inside the editor only.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-select {
+	.components-base-control {
+		> .components-base-control__field {
+			margin: 0;
+		}
+	}
+	.components-select-control {
+		border-radius: 0;
+	}
+}

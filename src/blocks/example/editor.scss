@@ -1,0 +1,11 @@
+/**
+ * The following styles get applied inside the editor only.
+ */
+
+.wp-block-tktk-example {
+	max-width: 100% !important;
+
+	> * {
+		@apply max-w-[1440px] mx-auto;
+	}
+}
